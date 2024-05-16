@@ -7,7 +7,7 @@ if (navigator.userAgent.toLowerCase().includes("mac")) {
     os = "MacOS";
 }
 
-if (navigator.userAgent.toLowerCase().includes("ios")) {
+if (navigator.userAgent.toLowerCase().includes("iphone")) {
     os = "iOS";
 }
 
