@@ -1,4 +1,5 @@
 const output = document.getElementById("os-output");
+const response = document.getElementById("response");
 
 let os = "Unknown";
 
@@ -19,3 +20,4 @@ if (navigator.userAgent.toLowerCase().includes("windows")) {
 }
 
 output.innerHTML = os;
+response.innerHTML = navigator.userAgent.toLowerCase();
